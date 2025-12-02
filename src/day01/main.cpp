@@ -11,7 +11,7 @@ std::string solve_1(const std::string& input) {
         const auto type = l[0];
         assert(type == 'L' || type == 'R');
 
-        const auto value = parse_int_from_substr(l, 1, l.size()) % MAX;
+        const auto value = parse_from_substr<int>(l, 1) % MAX;
         if (type == 'L') {
             pos = (pos + MAX - value) % MAX;
         } else {
@@ -33,7 +33,7 @@ std::string solve_2(const std::string& input) {
         const auto type = l[0];
         assert(type == 'L' || type == 'R');
 
-        const auto value_rep = parse_int_from_substr(l, 1, l.size());
+        const auto value_rep = parse_from_substr<int>(l, 1);
         answer += value_rep / MAX;
 
         const auto value = value_rep % MAX;
