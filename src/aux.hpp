@@ -47,20 +47,7 @@ std::vector<std::string_view> split_view(std::string_view s, char delimiter) {
 }
 
 std::vector<std::string_view> split_lines_view(std::string_view s) {
-    std::vector<std::string_view> lines;
-    size_t start = 0;
-    while (start < s.size()) {
-        auto pos = s.find_first_of("\n", start);
-        if (pos == std::string_view::npos) {
-            lines.emplace_back(s.substr(start));
-
-            break;
-        }
-        lines.emplace_back(s.substr(start, pos - start));
-        start = pos + 1;
-    }
-
-    return lines;
+    return split_view(s, '\n');
 }
 
 template <typename T>
