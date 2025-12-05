@@ -1,11 +1,11 @@
 #include <aux.hpp>
 
 std::string solve_1(const std::string& input) {
-    const auto ranges = split_view(input, ',');
+    const auto ranges = split_view(input, ",");
 
     long long ans = 0;
     for (const auto& range : ranges) {
-        const auto ids = split_view(range, '-');
+        const auto ids = split_view(range, "-");
         const auto start = parse_from_substr<long long>(ids[0]);
         const auto end = parse_from_substr<long long>(ids[1]);
 
@@ -23,11 +23,11 @@ std::string solve_1(const std::string& input) {
 }
 
 std::string solve_2(const std::string& input) {
-    const auto ranges = split_view(input, ',');
+    const auto ranges = split_view(input, ",");
 
     long long ans = 0;
     for (const auto& range : ranges) {
-        const auto ids = split_view(range, '-');
+        const auto ids = split_view(range, "-");
         const auto start = parse_from_substr<long long>(ids[0]);
         const auto end = parse_from_substr<long long>(ids[1]);
 

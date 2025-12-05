@@ -32,7 +32,8 @@ std::string readFile(const std::string& path) {
     return contents;
 }
 
-std::vector<std::string_view> split_view(std::string_view s, char delimiter) {
+std::vector<std::string_view> split_view(std::string_view s,
+                                         std::string_view delimiter) {
     std::vector<std::string_view> result;
     std::size_t start = 0;
     while (true) {
@@ -43,14 +44,14 @@ std::vector<std::string_view> split_view(std::string_view s, char delimiter) {
             break;
         }
         result.emplace_back(s.substr(start, pos - start));
-        start = pos + 1;
+        start = pos + delimiter.size();
     }
 
     return result;
 }
 
 std::vector<std::string_view> split_lines_view(std::string_view s) {
-    return split_view(s, '\n');
+    return split_view(s, "\n");
 }
 
 template <typename T>
