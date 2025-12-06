@@ -5,3 +5,4 @@
 - [Day 3: Lobby](src/day03/main.cpp)
 - [Day 4: Printing Department](src/day04/main.cpp)
 - [Day 5: Cafeteria](src/day05/main.cpp)
+- [Day 6: Trash Compactor](src/day06/main.cpp)
