@@ -7,3 +7,4 @@
 - [Day 5: Cafeteria](src/day05/main.cpp)
 - [Day 6: Trash Compactor](src/day06/main.cpp)
 - [Day 7: Laboratories](src/day07/main.cpp)
+- [Day 8: Playground](src/day08/main.cpp)
