@@ -8,3 +8,4 @@
 - [Day 6: Trash Compactor](src/day06/main.cpp)
 - [Day 7: Laboratories](src/day07/main.cpp)
 - [Day 8: Playground](src/day08/main.cpp)
+- [Day 9: Movie Theater](src/day09/main.cpp)
