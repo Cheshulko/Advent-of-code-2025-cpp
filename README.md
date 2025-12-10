@@ -9,3 +9,4 @@
 - [Day 7: Laboratories](src/day07/main.cpp)
 - [Day 8: Playground](src/day08/main.cpp)
 - [Day 9: Movie Theater](src/day09/main.cpp)
+- [Day 10: Factory](src/day10/main.cpp)
