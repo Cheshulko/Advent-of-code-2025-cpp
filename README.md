@@ -11,3 +11,4 @@
 - [Day 9: Movie Theater](src/day09/main.cpp)
 - [Day 10: Factory](src/day10/main.cpp)
 - [Day 11: Reactor](src/day11/main.cpp)
+- [Day 12: Christmas Tree Farm](src/day12/main.cpp)

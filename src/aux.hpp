@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <bit>
 #include <cassert>
 #include <charconv>
 #include <fstream>
