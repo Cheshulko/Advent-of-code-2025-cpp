@@ -1,5 +1,7 @@
 # AdventOfCode2025
 
+<img src="https://github.com/Cheshulko/Advent-of-code-2025-cpp/blob/main/src/img.png?raw=true" width="500"/>
+
 - [Day 1: Secret Entrance](src/day01/main.cpp)
 - [Day 2: Gift Shop](src/day02/main.cpp)
 - [Day 3: Lobby](src/day03/main.cpp)
